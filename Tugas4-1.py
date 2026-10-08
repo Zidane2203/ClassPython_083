@@ -12,13 +12,13 @@ class Rectangle:
         def __str__(self):
             return f"Rectangle, {self.length} cm long, and {self.width} cm wide"
 
-length = int(input("Enter the length: "))
-width = int(input("Enter the width: "))
+length = float(input("Enter the length: "))
+width = float(input("Enter the width: "))
 
 while length == 0 or width == 0:
     print("Length and width cannot be 0!")
-    length = int(input("Enter the length: "))
-    width = int(input("Enter the width: "))
+    length = float(input("Enter the length: "))
+    width = float(input("Enter the width: "))
 
 rectangle = Rectangle(length, width)
 
