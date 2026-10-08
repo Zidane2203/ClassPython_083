@@ -19,3 +19,9 @@ while length == 0 or width == 0:
     print("Length and width cannot be 0!")
     length = int(input("Enter the length: "))
     width = int(input("Enter the width: "))
+
+rectangle = Rectangle(length, width)
+
+print(rectangle)
+print("Circumference:", rectangle.circumference(), "cm")
+print("Area:", rectangle.area(), "cm²")
