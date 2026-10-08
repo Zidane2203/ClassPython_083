@@ -8,5 +8,6 @@ class Rectangle:
 
         def area(self):
             return self.length * self.width
-    
-        pass
+
+        def __str__(self):
+            return f"Rectangle, {self.length} cm long, and {self.width} cm wide"
