@@ -11,3 +11,6 @@ class Rectangle:
 
         def __str__(self):
             return f"Rectangle, {self.length} cm long, and {self.width} cm wide"
+
+length = int(input("Enter the length: "))
+width = int(input("Enter the width: "))
