@@ -3,14 +3,15 @@ class Rectangle:
         self.length = length
         self.width = width
 
-        def circumference(self):
-            return 2 * (self.length + self.width)
+    def circumference(self):
+        return 2 * (self.length + self.width)
 
-        def area(self):
-            return self.length * self.width
+    def area(self):
+        return self.length * self.width
 
-        def __str__(self):
-            return f"Rectangle, {self.length} cm long, and {self.width} cm wide"
+    def __str__(self):
+        return f"Rectangle, {self.length} cm long, and {self.width} cm wide"
+
 
 length = float(input("Enter the length: "))
 width = float(input("Enter the width: "))
