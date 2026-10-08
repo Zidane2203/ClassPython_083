@@ -14,3 +14,8 @@ class Rectangle:
 
 length = int(input("Enter the length: "))
 width = int(input("Enter the width: "))
+
+while length == 0 or width == 0:
+    print("Length and width cannot be 0!")
+    length = int(input("Enter the length: "))
+    width = int(input("Enter the width: "))
